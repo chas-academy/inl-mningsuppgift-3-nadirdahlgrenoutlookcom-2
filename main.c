@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-float calculate_hypotenuse(float a, float b)
+float calculate_hypotenuse(float a, float b) // Funktion för hypnotenusan. 
 {
-    return sqrt(a * a + b * b);
+    return sqrt(a * a + b * b); // Squareroot av a^2 + b^2 = c^2
 }
 
 // This is where you add the function calculate_hypotenuse
